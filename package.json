@@ -1,0 +1,23 @@
+{
+  "name": "auth0-service-sample",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy"
+  },
+  "dependencies": {
+    "@twilio/runtime-handler": "1.2.3",
+    "express-jwt": "^7.7.5",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.1.4",
+    "twilio": "^3.56"
+  },
+  "devDependencies": {
+    "twilio-run": "^3.4.2"
+  },
+  "engines": {
+    "node": "14"
+  }
+}
